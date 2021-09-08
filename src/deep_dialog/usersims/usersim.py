@@ -30,7 +30,7 @@ class UserSimulator:
     def initialize_episode(self):
         """ Initialize a new episode (dialog)"""
 
-        print "initialize episode called, generating goal"
+        print ("initialize episode called, generating goal")
         self.goal =  random.choice(self.start_set)
         self.goal['request_slots']['ticket'] = 'UNK'
         episode_over, user_action = self._sample_action()
@@ -53,12 +53,13 @@ class UserSimulator:
     
     def add_nl_to_action(self, user_action):
         """ Add NL to User Dia_Act """
-        
-        user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
-        user_action['nl'] = user_nlg_sentence
-        
+
+        print(user_action)
         if self.simulator_act_level == 1:
-            user_nlu_res = self.nlu_model.generate_dia_act(user_action['nl']) # NLU
+            user_nlu_res = self.nlu_model.generate_dia_act(user_action) # NLU
             if user_nlu_res != None:
                 #user_nlu_res['diaact'] = user_action['diaact'] # or not?
                 user_action.update(user_nlu_res)
+        else:
+            user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
+            user_action['nl'] = user_nlg_sentence

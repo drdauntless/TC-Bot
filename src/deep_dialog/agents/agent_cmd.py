@@ -4,8 +4,7 @@ Created on May 17, 2016
 @author: xiul, t-zalipt
 """
 
-
-from agent import Agent
+from .agent import Agent
 
 class AgentCmd(Agent):
     
@@ -28,8 +27,8 @@ class AgentCmd(Agent):
 
         user_action = state['user_action']
         # get input from the command line
-        print "Turn", user_action['turn'] + 1, "sys:",
-        command = raw_input()
+        print("Turn", user_action['turn'] + 1)
+        command = input( "sys:")
         
         if self.agent_input_mode == 0: # nl
             act_slot_value_response = self.generate_diaact_from_nl(command)

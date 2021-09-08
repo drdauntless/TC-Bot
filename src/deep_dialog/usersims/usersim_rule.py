@@ -59,7 +59,8 @@ class RuleSimulator(UserSimulator):
         self.goal['request_slots']['ticket'] = 'UNK'
         self.constraint_check = dialog_config.CONSTRAINT_CHECK_FAILURE
   
-        """ Debug: build a fake goal mannually """
+        """ Debug: build a fake goal manually """
+        """ Debug: build a fake goal manually """
         #self.debug_falk_goal()
         
         # sample first action
@@ -362,8 +363,9 @@ class RuleSimulator(UserSimulator):
                             else:
                                 self.state['request_slots']['ticket'] = 'UNK'
                                 self.state['diaact'] = "request"
-                        else: # how to reply here?
                             self.state['diaact'] = "thanks" # replies "closing"? or replies "confirm_answer"
+                        else: # how to reply here?
+                            pass
                     else: # != value  Should we deny here or ?
                         ########################################################################
                         # TODO When agent informs(slot=value), where the value is different with the constraint in user goal, Should we deny or just inform the correct value?

@@ -7,7 +7,10 @@ Created on Oct 17, 2016
 @author: xiul
 '''
 
-import cPickle as pickle
+try:
+   import cPickle as pickle
+except:
+   import pickle
 import copy, argparse, json
 import numpy as np
 

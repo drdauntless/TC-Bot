@@ -15,12 +15,15 @@ Command: python .\run.py --agt 9 --usr 1 --max_turn 40 --movie_kb_path .\deep_di
 
 
 import random, copy, json
-import cPickle as pickle
+try:
+   import cPickle as pickle
+except:
+   import pickle
 import numpy as np
 
 from deep_dialog import dialog_config
 
-from agent import Agent
+from .agent import Agent
 from deep_dialog.qlearning import DQN
 
 
@@ -203,7 +206,7 @@ class AgentDQN(Agent):
         for (i, action) in enumerate(self.feasible_actions):
             if act_slot_response == action:
                 return i
-        print act_slot_response
+        print(act_slot_response)
         raise Exception("action index not found")
         return None
     
@@ -244,10 +247,10 @@ class AgentDQN(Agent):
         
         try:
             pickle.dump(self.experience_replay_pool, open(path, "wb"))
-            print 'saved model in %s' % (path, )
-        except Exception, e:
-            print 'Error: Writing model fails: %s' % (path, )
-            print e         
+            print('saved model in %s' % (path, ))
+        except Exception as e:
+            print('Error: Writing model fails: %s' % (path, ))
+            print(e)
     
     def load_experience_replay_from_file(self, path):
         """ Load the experience replay pool from a file"""
@@ -261,5 +264,5 @@ class AgentDQN(Agent):
         trained_file = pickle.load(open(path, 'rb'))
         model = trained_file['model']
         
-        print "trained DQN Parameters:", json.dumps(trained_file['params'], indent=2)
+        print ("trained DQN Parameters:", json.dumps(trained_file['params'], indent=2))
         return model

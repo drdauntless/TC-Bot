@@ -1,38 +1,15 @@
-"""
-Created on May 22, 2016
 
-This should be a simple minimalist run file. It's only responsibility should be to parse the arguments (which agent, user simulator to use) and launch a dialog simulation.
-
-Rule-agent: python run.py --agt 6 --usr 1 --max_turn 40 --episodes 150 --movie_kb_path .\deep_dialog\data\movie_kb.1k.p --run_mode 2
-
-movie_kb:
-movie_kb.1k.p: 94% success rate
-movie_kb.v2.p: 36% success rate
-
-user goal files:
-first turn: user_goals_first_turn_template.v2.p
-all turns: user_goals_all_turns_template.p
-user_goals_first_turn_template.part.movie.v1.p: a subset of user goal. [Please use this one, the upper bound success rate on movie_kb.1k.json is 0.9765.]
-
-Commands:
-Rule: python run.py --agt 5 --usr 1 --max_turn 40 --episodes 150 --movie_kb_path .\deep_dialog\data\movie_kb.1k.p --goal_file_path .\deep_dialog\data\user_goals_first_turn_template.part.movie.v1.p --intent_err_prob 0.00 --slot_err_prob 0.00 --episodes 500 --act_level 1 --run_mode 1
-
-Training:
-RL: python run.py --agt 9 --usr 1 --max_turn 40 --movie_kb_path .\deep_dialog\data\movie_kb.1k.p --dqn_hidden_size 80 --experience_replay_pool_size 1000 --episodes 500 --simulation_epoch_size 100 --write_model_dir .\deep_dialog\checkpoints\rl_agent\ --run_mode 3 --act_level 0 --slot_err_prob 0.05 --intent_err_prob 0.00 --batch_size 16 --goal_file_path .\deep_dialog\data\user_goals_first_turn_template.part.movie.v1.p --warm_start 1 --warm_start_epochs 120
-
-Predict:
-RL: python run.py --agt 9 --usr 1 --max_turn 40 --movie_kb_path .\deep_dialog\data\movie_kb.1k.p --dqn_hidden_size 80 --experience_replay_pool_size 1000 --episodes 300 --simulation_epoch_size 100 --write_model_dir .\deep_dialog\checkpoints\rl_agent\ --slot_err_prob 0.00 --intent_err_prob 0.00 --batch_size 16 --goal_file_path .\deep_dialog\data\user_goals_first_turn_template.part.movie.v1.p --episodes 200 --trained_model_path .\deep_dialog\checkpoints\rl_agent\agt_9_22_30_0.37000.p --run_mode 3
-
-@author: xiul, t-zalipt
-"""
 
 
 import argparse, json, copy, os
-import cPickle as pickle
+try:
+   import cPickle as pickle
+except:
+   import pickle
 
 from deep_dialog.dialog_system import DialogManager, text_to_dict
 from deep_dialog.agents import AgentCmd, InformAgent, RequestAllAgent, RandomAgent, EchoAgent, RequestBasicsAgent, AgentDQN
-from deep_dialog.usersims import RuleSimulator
+from deep_dialog.usersims import RuleSimulator, RealUser
 
 from deep_dialog import dialog_config
 from deep_dialog.dialog_config import *
@@ -53,7 +30,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--dict_path', dest='dict_path', type=str, default='./deep_dialog/data/dicts.v3.p', help='path to the .json dictionary file')
-    parser.add_argument('--movie_kb_path', dest='movie_kb_path', type=str, default='./deep_dialog/data/movie_kb.1k.p', help='path to the movie kb .json file')
+    parser.add_argument('--movie_kb_path', dest='movie_kb_path', type=str, default='/Users/euler/Documents/Programmer-Programmer/TC-Bot/src/deep_dialog/data/movie_kb.1k.p', help='path to the movie kb .json file')
     parser.add_argument('--act_set', dest='act_set', type=str, default='./deep_dialog/data/dia_acts.txt', help='path to dia act set; none for loading from labeled file')
     parser.add_argument('--slot_set', dest='slot_set', type=str, default='./deep_dialog/data/slot_set.txt', help='path to slot set; none for loading from labeled file')
     parser.add_argument('--goal_file_path', dest='goal_file_path', type=str, default='./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p', help='a list of user goals')
@@ -101,8 +78,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     params = vars(args)
 
-    print 'Dialog Parameters: '
-    print json.dumps(params, indent=2)
+    print('Dialog Parameters: ')
+    print(json.dumps(params, indent=2))
 
 
 max_turn = params['max_turn']
@@ -269,10 +246,10 @@ def save_model(path, agt, success_rate, agent, best_epoch, cur_epoch):
     checkpoint['params'] = params
     try:
         pickle.dump(checkpoint, open(filepath, "wb"))
-        print 'saved model in %s' % (filepath, )
-    except Exception, e:
-        print 'Error: Writing model fails: %s' % (filepath, )
-        print e
+        print('saved model in %s' % (filepath, ))
+    except Exception as e:
+        print('Error: Writing model fails: %s' % (filepath, ))
+        print(e)
 
 """ save performance numbers """
 def save_performance_records(path, agt, records):
@@ -280,10 +257,10 @@ def save_performance_records(path, agt, records):
     filepath = os.path.join(path, filename)
     try:
         json.dump(records, open(filepath, "wb"))
-        print 'saved model in %s' % (filepath, )
-    except Exception, e:
-        print 'Error: Writing model fails: %s' % (filepath, )
-        print e
+        print('saved model in %s' % (filepath, ))
+    except Exception as e:
+        print('Error: Writing model fails: %s' % (filepath, ))
+        print(e)
 
 """ Run N simulation Dialogues """
 def simulation_epoch(simulation_epoch_size):

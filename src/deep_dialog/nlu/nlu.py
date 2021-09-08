@@ -4,12 +4,15 @@ Created on Jul 13, 2016
 @author: xiul
 '''
 
-import cPickle as pickle
+try:
+   import cPickle as pickle
+except:
+   import pickle
 import copy
 import numpy as np
 
-from lstm import lstm
-from bi_lstm import biLSTM
+from .lstm import lstm
+from .bi_lstm import biLSTM
 
 
 class nlu:
