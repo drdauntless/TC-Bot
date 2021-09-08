@@ -59,7 +59,7 @@ class UserSimulator:
             user_nlu_res = self.nlu_model.generate_dia_act(user_action) # NLU
             if user_nlu_res != None:
                 #user_nlu_res['diaact'] = user_action['diaact'] # or not?
-                user_action.update(user_nlu_res)
+                return user_nlu_res
         else:
             user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
             user_action['nl'] = user_nlg_sentence

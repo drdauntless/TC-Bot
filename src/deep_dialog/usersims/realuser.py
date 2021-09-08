@@ -27,8 +27,8 @@ class RealUser(UserSimulator):
         self.slot_set = slot_set
         self.start_set = start_set
         self.simulator_act_level = params['simulator_act_level']
-        """self.max_turn = params['max_turn']
-        self.slot_err_probability = params['slot_err_probability']
+        self.max_turn = params['max_turn']
+        """self.slot_err_probability = params['slot_err_probability']
         self.slot_err_mode = params['slot_err_mode']
         self.intent_err_probability = params['intent_err_probability']
 
@@ -42,17 +42,17 @@ class RealUser(UserSimulator):
         state['history_slots']: keeps all the informed_slots
         state['rest_slots']: keep all the slots (which is still in the stack yet)
 
-        self.state = {}
+
         self.state['history_slots'] = {}
         self.state['inform_slots'] = {}
         self.state['request_slots'] = {}
         self.state['rest_slots'] = []
-        self.state['turn'] = 0
 
-        self.episode_over = False
+
+
         self.dialog_status = dialog_config.NO_OUTCOME_YET
 
-        # self.goal =  random.choice(self.start_set)
+
         self.goal = self._sample_goal(self.start_set)
         self.goal['request_slots']['ticket'] = 'UNK'
         self.constraint_check = dialog_config.CONSTRAINT_CHECK_FAILURE
@@ -60,7 +60,11 @@ class RealUser(UserSimulator):
         """ Debug: build a fake goal manually """
         """ Debug: build a fake goal manually """
         # self.debug_falk_goal()
-
+        self.state = {}
+        self.episode_over = False
+        self.state['turn'] = 0
+        self.goal = None
+        # self.goal =  random.choice(self.start_set)
         # sample first action
         user_action = self.get_user_input()
         assert (self.episode_over != 1), ' but we just started'
@@ -105,10 +109,15 @@ class RealUser(UserSimulator):
         sample_action = input("User: ")
         result = self.add_nl_to_action(sample_action)
         print(result)
-        sample_action['diaact'] = self.state['diaact']
-        sample_action['inform_slots'] = self.state['inform_slots']
-        sample_action['request_slots'] = self.state['request_slots']
-        sample_action['turn'] = self.state['turn']
+        sample_action ={}
+        sample_action['diaact'] =result['diaact']
+        sample_action['inform_slots'] = result['inform_slots']
+        sample_action['request_slots'] = result['request_slots']
+        sample_action['turn']=self.state['turn']
+        sample_action['nl']=""
+        if self.goal is None:
+            self.goal = result['diaact']
+        #sample_action['turn'] = result['turn']
 
         return sample_action
 
@@ -180,25 +189,8 @@ class RealUser(UserSimulator):
             self.episode_over = True
             self.state['diaact'] = "closing"
         else:
-            self.state['history_slots'].update(self.state['inform_slots'])
-            self.state['inform_slots'].clear()
-
-            if sys_act == "inform":
-                self.response_inform(system_action)
-            elif sys_act == "multiple_choice":
-                self.response_multiple_choice(system_action)
-            elif sys_act == "request":
-                self.response_request(system_action)
-            elif sys_act == "thanks":
-                self.response_thanks(system_action)
-            elif sys_act == "confirm_answer":
-                self.response_confirm_answer(system_action)
-            elif sys_act == "closing":
-                self.episode_over = True
-                self.state['diaact'] = "thanks"
-
-        self.corrupt(self.state)
-
+            response_action = self.get_user_input()
+        """
         response_action = {}
         response_action['diaact'] = self.state['diaact']
         response_action['inform_slots'] = self.state['inform_slots']
@@ -208,6 +200,7 @@ class RealUser(UserSimulator):
 
         # add NL to dia_act
         self.add_nl_to_action(response_action)
+        """
         return response_action, self.episode_over, self.dialog_status
 
     def response_confirm_answer(self, system_action):

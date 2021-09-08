@@ -116,13 +116,13 @@ class DialogManager:
             if dialog_config.auto_suggest == 1:
                 print('(Suggested Values: %s)' % (self.state_tracker.get_suggest_slots_values(agent_action['request_slots'])))
         elif user_action:
-            if dialog_config.run_mode == 0:
+            """if dialog_config.run_mode == 0:
                 print ("Turn %d usr: %s" % (user_action['turn'], user_action['nl']))
             elif dialog_config.run_mode == 1: 
                 print ("Turn %s usr: %s, inform_slots: %s, request_slots: %s" % (user_action['turn'], user_action['diaact'], user_action['inform_slots'], user_action['request_slots']))
             elif dialog_config.run_mode == 2: # debug mode, show both
                 print ("Turn %d usr: %s, inform_slots: %s, request_slots: %s" % (user_action['turn'], user_action['diaact'], user_action['inform_slots'], user_action['request_slots']))
-                print ("Turn %d usr: %s" % (user_action['turn'], user_action['nl']))
+                print ("Turn %d usr: %s" % (user_action['turn'], user_action['nl']))"""
             
             if self.agent.__class__.__name__ == 'AgentCmd': # command line agent
                 user_request_slots = user_action['request_slots']
