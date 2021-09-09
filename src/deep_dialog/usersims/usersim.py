@@ -54,12 +54,11 @@ class UserSimulator:
     def add_nl_to_action(self, user_action):
         """ Add NL to User Dia_Act """
 
-        print(user_action)
+        user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
+        user_action['nl'] = user_nlg_sentence
+
         if self.simulator_act_level == 1:
-            user_nlu_res = self.nlu_model.generate_dia_act(user_action) # NLU
+            user_nlu_res = self.nlu_model.generate_dia_act(user_action['nl']) # NLU
             if user_nlu_res != None:
                 #user_nlu_res['diaact'] = user_action['diaact'] # or not?
-                return user_nlu_res
-        else:
-            user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
-            user_action['nl'] = user_nlg_sentence
+                user_action.update(user_nlu_res)
