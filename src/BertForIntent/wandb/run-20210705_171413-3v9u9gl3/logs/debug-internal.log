@@ -1,0 +1,267 @@
+2021-07-05 17:14:15,439 INFO    MainThread:1120 [internal.py:wandb_internal():91] W&B internal server running at pid: 1120, started at: 2021-07-05 17:14:15.436768
+2021-07-05 17:14:16,723 DEBUG   SenderThread:1120 [sender.py:send():179] send: header
+2021-07-05 17:14:16,723 INFO    WriterThread:1120 [datastore.py:open_for_write():80] open: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/run-3v9u9gl3.wandb
+2021-07-05 17:14:16,724 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: check_version
+2021-07-05 17:14:16,724 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: check_version
+2021-07-05 17:14:16,790 DEBUG   SenderThread:1120 [sender.py:send():179] send: run
+2021-07-05 17:14:16,804 DEBUG   SenderThread:1120 [git.py:repo():33] git repository is invalid
+2021-07-05 17:14:16,915 INFO    SenderThread:1120 [dir_watcher.py:__init__():168] watching files in: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files
+2021-07-05 17:14:16,915 INFO    SenderThread:1120 [sender.py:_start_run_threads():719] run started: 3v9u9gl3 with start time 1625505254
+2021-07-05 17:14:16,915 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:14:16,918 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: run_start
+2021-07-05 17:14:16,920 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:14:17,924 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:14:18,408 DEBUG   HandlerThread:1120 [meta.py:__init__():39] meta init
+2021-07-05 17:14:18,408 DEBUG   HandlerThread:1120 [meta.py:__init__():53] meta init done
+2021-07-05 17:14:18,408 DEBUG   HandlerThread:1120 [meta.py:probe():210] probe
+2021-07-05 17:14:18,422 DEBUG   HandlerThread:1120 [git.py:repo():33] git repository is invalid
+2021-07-05 17:14:18,422 DEBUG   HandlerThread:1120 [meta.py:_save_pip():57] save pip
+2021-07-05 17:14:18,427 DEBUG   HandlerThread:1120 [meta.py:_save_pip():71] save pip done
+2021-07-05 17:14:18,427 DEBUG   HandlerThread:1120 [meta.py:probe():252] probe done
+2021-07-05 17:14:18,434 DEBUG   SenderThread:1120 [sender.py:send():179] send: files
+2021-07-05 17:14:18,434 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-05 17:14:18,448 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:14:18,449 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:14:18,522 DEBUG   SenderThread:1120 [sender.py:send():179] send: config
+2021-07-05 17:14:18,523 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:18,524 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:18,524 WARNING SenderThread:1120 [sender.py:send_metric():799] Seen metric with glob (shouldnt happen)
+2021-07-05 17:14:18,735 INFO    Thread-11 :1120 [upload_job.py:push():137] Uploaded file /tmp/tmpj_80bjuywandb/3dlpshgh-wandb-metadata.json
+2021-07-05 17:14:18,928 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:14:18,931 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-metadata.json
+2021-07-05 17:14:18,934 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/requirements.txt
+2021-07-05 17:14:28,967 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:14:30,250 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,252 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,253 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,254 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,254 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,254 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,259 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,259 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,259 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,260 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,260 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,260 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,260 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,261 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,261 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,262 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,262 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,262 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,262 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,263 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,263 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,263 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,263 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,264 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:14:30,264 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:14:30,264 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:14:30,269 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:14:30,979 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:14:33,523 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:14:33,524 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:14:41,029 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:14:41,909 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:14:41,910 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:14:41,915 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:14:42,033 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:14:46,048 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/config.yaml
+2021-07-05 17:14:46,564 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:14:48,598 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:14:48,599 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:14:53,072 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:14:53,694 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:14:53,695 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:14:53,705 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:14:54,076 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:15:03,669 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:15:03,669 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:15:05,115 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:05,289 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:15:05,290 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:15:05,298 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:15:06,119 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:15:07,762 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:15:07,762 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:15:07,763 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:15:07,763 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:15:07,776 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:15:08,126 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:15:09,130 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:11,139 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:13,150 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:16,714 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:15:17,165 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/config.yaml
+2021-07-05 17:15:18,739 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:15:18,740 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:15:20,181 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:27,223 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:28,656 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:15:28,657 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:15:28,674 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:15:29,233 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:15:33,819 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:15:33,819 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:15:41,284 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:41,672 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:15:41,674 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:15:41,680 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:15:42,288 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:15:46,870 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:15:48,913 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:15:48,914 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:15:53,331 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:15:53,441 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:15:53,442 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:15:53,458 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:15:54,337 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:03,991 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:16:03,992 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:16:05,264 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:16:05,265 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:16:05,274 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:16:05,394 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:05,395 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:10,315 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:16:10,316 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:16:10,323 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:16:10,413 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:13,432 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:15,440 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:17,008 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:16:19,065 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:16:19,066 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:16:23,481 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:24,556 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:16:24,557 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:16:24,564 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:16:25,489 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:34,136 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:16:34,137 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:16:35,533 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:36,399 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:16:36,400 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:16:36,405 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:16:36,537 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:47,149 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:16:47,593 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:16:48,211 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:16:48,212 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:16:48,218 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:16:48,597 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:16:49,210 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 17:16:49,210 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 17:16:59,641 INFO    Thread-8  :1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:17:00,028 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:17:00,029 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:17:00,039 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:17:00,042 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:17:00,042 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:17:00,043 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:17:00,043 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:17:00,044 DEBUG   SenderThread:1120 [sender.py:send():179] send: metric
+2021-07-05 17:17:00,044 DEBUG   SenderThread:1120 [sender.py:send():179] send: history
+2021-07-05 17:17:00,045 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:17:00,050 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:17:00,185 DEBUG   SenderThread:1120 [sender.py:send():179] send: telemetry
+2021-07-05 17:17:00,185 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,185 DEBUG   SenderThread:1120 [sender.py:send():179] send: exit
+2021-07-05 17:17:00,186 INFO    SenderThread:1120 [sender.py:send_exit():287] handling exit code: 0
+2021-07-05 17:17:00,187 INFO    SenderThread:1120 [sender.py:send_exit():295] send defer
+2021-07-05 17:17:00,187 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:00,188 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,188 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-05 17:17:00,188 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,189 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-05 17:17:00,189 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 1
+2021-07-05 17:17:00,189 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,190 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-05 17:17:00,216 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,216 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-05 17:17:00,217 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 2
+2021-07-05 17:17:00,217 DEBUG   SenderThread:1120 [sender.py:send():179] send: stats
+2021-07-05 17:17:00,218 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,218 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-05 17:17:00,218 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,218 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-05 17:17:00,219 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 3
+2021-07-05 17:17:00,219 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,219 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-05 17:17:00,220 DEBUG   SenderThread:1120 [sender.py:send():179] send: summary
+2021-07-05 17:17:00,225 INFO    SenderThread:1120 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 17:17:00,226 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,227 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-05 17:17:00,227 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 4
+2021-07-05 17:17:00,227 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,227 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-05 17:17:00,228 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,229 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-05 17:17:00,297 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,366 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 5
+2021-07-05 17:17:00,366 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:00,367 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,367 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 5
+2021-07-05 17:17:00,368 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,368 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-07-05 17:17:00,368 INFO    SenderThread:1120 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-05 17:17:00,468 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,646 INFO    SenderThread:1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:17:00,647 INFO    SenderThread:1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:17:00,648 INFO    SenderThread:1120 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/config.yaml
+2021-07-05 17:17:00,649 INFO    SenderThread:1120 [dir_watcher.py:finish():312] scan: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files
+2021-07-05 17:17:00,649 INFO    SenderThread:1120 [dir_watcher.py:finish():318] scan save: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/config.yaml config.yaml
+2021-07-05 17:17:00,651 INFO    SenderThread:1120 [dir_watcher.py:finish():318] scan save: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json wandb-summary.json
+2021-07-05 17:17:00,656 INFO    SenderThread:1120 [dir_watcher.py:finish():318] scan save: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/requirements.txt requirements.txt
+2021-07-05 17:17:00,661 INFO    SenderThread:1120 [dir_watcher.py:finish():318] scan save: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-metadata.json wandb-metadata.json
+2021-07-05 17:17:00,661 INFO    SenderThread:1120 [dir_watcher.py:finish():318] scan save: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log output.log
+2021-07-05 17:17:00,669 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 6
+2021-07-05 17:17:00,670 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:00,670 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:00,678 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 6
+2021-07-05 17:17:00,678 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:00,678 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-07-05 17:17:00,679 INFO    SenderThread:1120 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-05 17:17:00,774 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,774 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:00,877 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,877 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:00,943 INFO    Thread-13 :1120 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/wandb-summary.json
+2021-07-05 17:17:00,947 INFO    Thread-12 :1120 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/config.yaml
+2021-07-05 17:17:00,958 INFO    Thread-14 :1120 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/requirements.txt
+2021-07-05 17:17:00,965 INFO    Thread-15 :1120 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/files/output.log
+2021-07-05 17:17:00,979 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:00,980 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:01,081 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:01,082 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:01,166 INFO    Thread-7  :1120 [sender.py:transition_state():308] send defer: 7
+2021-07-05 17:17:01,166 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:01,167 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 7
+2021-07-05 17:17:01,167 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:01,167 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-07-05 17:17:01,183 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:01,325 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 8
+2021-07-05 17:17:01,326 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:01,327 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:01,327 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 8
+2021-07-05 17:17:01,327 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:01,327 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-07-05 17:17:01,328 INFO    SenderThread:1120 [sender.py:transition_state():308] send defer: 9
+2021-07-05 17:17:01,329 DEBUG   SenderThread:1120 [sender.py:send():179] send: final
+2021-07-05 17:17:01,329 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 17:17:01,329 DEBUG   SenderThread:1120 [sender.py:send():179] send: footer
+2021-07-05 17:17:01,330 INFO    HandlerThread:1120 [handler.py:handle_request_defer():141] handle defer: 9
+2021-07-05 17:17:01,330 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: defer
+2021-07-05 17:17:01,330 INFO    SenderThread:1120 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-07-05 17:17:01,427 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 17:17:01,428 DEBUG   SenderThread:1120 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 17:17:01,428 INFO    SenderThread:1120 [file_pusher.py:join():182] waiting for file pusher
+2021-07-05 17:17:01,430 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: get_summary
+2021-07-05 17:17:01,431 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: sampled_history
+2021-07-05 17:17:01,434 DEBUG   HandlerThread:1120 [handler.py:handle_request():124] handle_request: shutdown
+2021-07-05 17:17:01,435 INFO    HandlerThread:1120 [handler.py:finish():638] shutting down handler
+2021-07-05 17:17:02,330 INFO    WriterThread:1120 [datastore.py:close():288] close: /content/drive/.shortcut-targets-by-id/1bUvVSsNKNln8EpW6MnWIRure67v5izO1/Google Colab Files/wandb/run-20210705_171413-3v9u9gl3/run-3v9u9gl3.wandb
+2021-07-05 17:17:02,428 INFO    SenderThread:1120 [sender.py:finish():945] shutting down sender
+2021-07-05 17:17:02,429 INFO    SenderThread:1120 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-05 17:17:02,429 INFO    SenderThread:1120 [file_pusher.py:join():182] waiting for file pusher
+2021-07-05 17:17:02,432 INFO    MainThread:1120 [internal.py:handle_exit():78] Internal process exited

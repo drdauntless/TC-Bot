@@ -1,0 +1,117 @@
+{
+  "hh_sheet_id": "1VwleGVwwpvDVYb4AXARK5poP4jdqgUIG65Jbme-hmS8",
+  "ha_sheet_id": "1zCuykGZyau8wVSx_7SpdWYY80C6GJDVdrQSGKGhE_JI",
+  "hh_sheet_names": [
+    "Study1", "Study2", "Study3", "Study4", "Study5", "Study6", "Study7", "Study8", "Study9"
+  ],
+  "ha_sheet_names": [
+    "P1 S", "P2 S", "P3 S", "P4 S", "P5 S", "P6 S", "P7 PRO", "P8 S", "P9 PRO", "P10 PRO", "P11 S", "P12 S", "P13 S", "P14 S" 
+  ],
+  
+  "columns_list": [
+        "Dialogue Act", "Intent", "Delivery", "Who", "Action", "Tone"
+    ],
+  
+  "dialogue_column": "Dialogue Act",
+  "dialogue_act_column": "Dialogue Tag",
+  "intent_column": "Intent",
+  "delivery_column": "Delivery",
+  "who_column": "Who",
+  "action_column": "Action",
+  "tone_column": "Tone",
+  
+  "driver_dict": {
+    "driver": 0,
+    "collaborating": 1,
+    "navigator": 2
+  },
+  "creativity_dict": {
+    "clarify": 0,
+    "idea": 1,
+    "develop": 2,
+    "implement": 3
+  },
+  "dialogue_act_dict": {
+    "ABD": 0,
+    "ACK": 1,
+    "AN": 2,
+    "APG": 3,
+    "AWH": 4,
+    "AY": 5,
+    "COR": 6,
+    "DIR": 7,
+    "FNON": 8,
+    "FP": 9,
+    "IND": 10,
+    "OTH": 11,
+    "QWH": 12,
+    "QYN": 13,
+    "ST": 14,
+    "UC": 15
+  },
+  "intent_dict": {
+    "INTRO": 0,
+    "ANS": 1,
+    "DIR": 2,
+    "DRV": 3,
+    "FB": 4,
+    "RPT": 5,
+    "THX": 6,
+    "TNK": 7,
+    "UC": 8
+  },
+  "delivery_dict": {
+    "Ask": 0,
+    "Suggest": 1,
+    "Direct": 2,
+    "Clarify/Verify": 3
+  },
+  "action_dict": {
+    "Goal": 0,
+    "Read": 1,
+    "Location": 2,
+    "Stop": 3,
+    "Code": 4,
+    "Idea": 5,
+    "Run Code": 6
+  },
+  "who_dict": {
+    "Me": 0,
+    "You": 1,
+    "Either": 2
+  },
+  "tone_dict": {
+    "Positive": 0,
+    "Neutral": 1,
+    "Negative": 2
+  },
+  "root_column_name": "intent_column",
+  "root_encode_dict": "intent_dict",
+  "root_hierarchy": {
+    "delivery_column": {
+        "encode_dict": "delivery_dict",
+        "label_subset": ["DIR", "DRV"]
+    },
+    "action_column": {
+        "encode_dict": "action_dict",
+        "label_subset": ["DIR"]
+    },
+    "who_column": {
+        "encode_dict": "who_dict",
+        "label_subset": ["DRV"]
+    },
+    "tone_column": {
+        "encode_dict": "tone_dict",
+        "label_subset": ["FB", "ANS"]
+    }
+  },
+  "stagger_training": true,
+  "num_runs": 1,
+  "num_train_epochs": 12,
+  "per_device_train_batch_size": 8,
+  "per_device_eval_batch_size": 8,
+  "warmup_steps": 500,
+  "weight_decay": 0.01,
+  "evaluation_strategy": "epoch",
+  "eval_accumulation_steps": 16
+}

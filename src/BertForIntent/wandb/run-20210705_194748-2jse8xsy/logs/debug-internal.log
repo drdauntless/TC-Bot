@@ -1,0 +1,256 @@
+2021-07-05 19:47:49,663 INFO    MainThread:1511 [internal.py:wandb_internal():91] W&B internal server running at pid: 1511, started at: 2021-07-05 19:47:49.660901
+2021-07-05 19:47:51,079 DEBUG   SenderThread:1511 [sender.py:send():179] send: header
+2021-07-05 19:47:51,079 INFO    WriterThread:1511 [datastore.py:open_for_write():80] open: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/run-2jse8xsy.wandb
+2021-07-05 19:47:51,079 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: check_version
+2021-07-05 19:47:51,080 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: check_version
+2021-07-05 19:47:51,538 DEBUG   SenderThread:1511 [sender.py:send():179] send: run
+2021-07-05 19:47:51,551 DEBUG   SenderThread:1511 [git.py:repo():33] git repository is invalid
+2021-07-05 19:47:51,944 INFO    SenderThread:1511 [dir_watcher.py:__init__():168] watching files in: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files
+2021-07-05 19:47:51,944 INFO    SenderThread:1511 [sender.py:_start_run_threads():719] run started: 2jse8xsy with start time 1625514468
+2021-07-05 19:47:51,944 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:47:51,945 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: run_start
+2021-07-05 19:47:51,949 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:47:52,950 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:47:53,596 DEBUG   HandlerThread:1511 [meta.py:__init__():39] meta init
+2021-07-05 19:47:53,596 DEBUG   HandlerThread:1511 [meta.py:__init__():53] meta init done
+2021-07-05 19:47:53,596 DEBUG   HandlerThread:1511 [meta.py:probe():210] probe
+2021-07-05 19:47:53,609 DEBUG   HandlerThread:1511 [git.py:repo():33] git repository is invalid
+2021-07-05 19:47:53,609 DEBUG   HandlerThread:1511 [meta.py:_save_pip():57] save pip
+2021-07-05 19:47:53,614 DEBUG   HandlerThread:1511 [meta.py:_save_pip():71] save pip done
+2021-07-05 19:47:53,614 DEBUG   HandlerThread:1511 [meta.py:probe():252] probe done
+2021-07-05 19:47:53,620 DEBUG   SenderThread:1511 [sender.py:send():179] send: files
+2021-07-05 19:47:53,620 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-05 19:47:53,632 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:47:53,632 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:47:53,964 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/requirements.txt
+2021-07-05 19:47:53,966 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-metadata.json
+2021-07-05 19:47:53,966 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_created():216] file/dir created: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:47:54,025 DEBUG   SenderThread:1511 [sender.py:send():179] send: config
+2021-07-05 19:47:54,026 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:47:54,027 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:47:54,027 WARNING SenderThread:1511 [sender.py:send_metric():799] Seen metric with glob (shouldnt happen)
+2021-07-05 19:47:54,570 INFO    Thread-11 :1511 [upload_job.py:push():137] Uploaded file /tmp/tmpw4lq8mzgwandb/943oeedx-wandb-metadata.json
+2021-07-05 19:48:01,958 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,960 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,965 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,966 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,966 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,967 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,968 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,968 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,969 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,970 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,970 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,971 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,971 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,972 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,972 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,972 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,973 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,973 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,973 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,973 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,974 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,974 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,974 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,975 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:01,975 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:01,975 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:02,000 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:02,008 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:03,003 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:04,008 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:09,027 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:48:09,027 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:48:10,098 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:10,099 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:10,106 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:11,028 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:12,034 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:17,820 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:17,821 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:17,828 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:18,048 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:20,053 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:21,056 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/config.yaml
+2021-07-05 19:48:21,743 DEBUG   SenderThread:1511 [sender.py:send():179] send: stats
+2021-07-05 19:48:24,231 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:48:24,232 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:48:25,207 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:25,210 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:25,214 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:26,067 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:26,068 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:31,749 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:31,750 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:48:31,750 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:31,750 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:31,762 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:32,082 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:34,089 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:36,953 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:36,953 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:36,958 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:37,096 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:38,099 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:39,296 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:48:39,296 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:48:44,322 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:44,329 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:44,335 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:45,114 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:46,116 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:51,671 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:51,672 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:51,676 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:51,880 DEBUG   SenderThread:1511 [sender.py:send():179] send: stats
+2021-07-05 19:48:52,131 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:48:52,132 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/config.yaml
+2021-07-05 19:48:52,132 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:48:54,357 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:48:54,358 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:48:59,033 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:48:59,034 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:48:59,054 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:48:59,148 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:00,151 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:06,375 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:06,376 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:06,385 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:07,170 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:08,173 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:09,422 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:49:09,422 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:49:12,570 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:12,571 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:12,576 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:13,185 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:14,187 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:16,192 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:19,103 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:19,104 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:19,111 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:19,200 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:20,202 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:22,015 DEBUG   SenderThread:1511 [sender.py:send():179] send: stats
+2021-07-05 19:49:24,493 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-05 19:49:24,493 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: stop_status
+2021-07-05 19:49:26,449 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:26,451 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:26,458 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:27,218 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:28,220 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:33,796 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:33,797 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:33,806 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:33,808 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:49:33,809 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:49:33,809 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:49:33,810 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:49:33,810 DEBUG   SenderThread:1511 [sender.py:send():179] send: metric
+2021-07-05 19:49:33,810 DEBUG   SenderThread:1511 [sender.py:send():179] send: history
+2021-07-05 19:49:33,810 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:33,813 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:34,233 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:34,234 INFO    Thread-8  :1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:34,320 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:34,320 DEBUG   SenderThread:1511 [sender.py:send():179] send: telemetry
+2021-07-05 19:49:34,321 DEBUG   SenderThread:1511 [sender.py:send():179] send: exit
+2021-07-05 19:49:34,321 INFO    SenderThread:1511 [sender.py:send_exit():287] handling exit code: 0
+2021-07-05 19:49:34,322 INFO    SenderThread:1511 [sender.py:send_exit():295] send defer
+2021-07-05 19:49:34,322 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:34,322 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,323 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-05 19:49:34,326 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,326 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-05 19:49:34,326 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 1
+2021-07-05 19:49:34,327 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,327 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-05 19:49:34,371 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,372 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-05 19:49:34,372 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 2
+2021-07-05 19:49:34,372 DEBUG   SenderThread:1511 [sender.py:send():179] send: stats
+2021-07-05 19:49:34,372 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,373 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-05 19:49:34,373 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,373 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-05 19:49:34,373 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 3
+2021-07-05 19:49:34,373 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,374 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-05 19:49:34,374 DEBUG   SenderThread:1511 [sender.py:send():179] send: summary
+2021-07-05 19:49:34,378 INFO    SenderThread:1511 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-05 19:49:34,379 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,379 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-05 19:49:34,379 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 4
+2021-07-05 19:49:34,379 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,379 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-05 19:49:34,379 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,380 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-05 19:49:34,430 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:34,496 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 5
+2021-07-05 19:49:34,496 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:34,497 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:34,497 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 5
+2021-07-05 19:49:34,497 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:34,498 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-07-05 19:49:34,498 INFO    SenderThread:1511 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-05 19:49:34,598 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,237 INFO    SenderThread:1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:35,237 INFO    SenderThread:1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/config.yaml
+2021-07-05 19:49:35,238 INFO    SenderThread:1511 [dir_watcher.py:_on_file_modified():229] file/dir modified: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:35,238 INFO    SenderThread:1511 [dir_watcher.py:finish():312] scan: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files
+2021-07-05 19:49:35,239 INFO    SenderThread:1511 [dir_watcher.py:finish():318] scan save: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/config.yaml config.yaml
+2021-07-05 19:49:35,239 INFO    SenderThread:1511 [dir_watcher.py:finish():318] scan save: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json wandb-summary.json
+2021-07-05 19:49:35,243 INFO    SenderThread:1511 [dir_watcher.py:finish():318] scan save: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/requirements.txt requirements.txt
+2021-07-05 19:49:35,247 INFO    SenderThread:1511 [dir_watcher.py:finish():318] scan save: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-metadata.json wandb-metadata.json
+2021-07-05 19:49:35,247 INFO    SenderThread:1511 [dir_watcher.py:finish():318] scan save: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log output.log
+2021-07-05 19:49:35,253 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 6
+2021-07-05 19:49:35,253 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,254 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:35,255 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 6
+2021-07-05 19:49:35,255 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:35,255 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-07-05 19:49:35,256 INFO    SenderThread:1511 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-05 19:49:35,357 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,358 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,461 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,461 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,500 INFO    Thread-12 :1511 [upload_job.py:push():137] Uploaded file /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/config.yaml
+2021-07-05 19:49:35,538 INFO    Thread-15 :1511 [upload_job.py:push():137] Uploaded file /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/output.log
+2021-07-05 19:49:35,542 INFO    Thread-13 :1511 [upload_job.py:push():137] Uploaded file /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/wandb-summary.json
+2021-07-05 19:49:35,550 INFO    Thread-14 :1511 [upload_job.py:push():137] Uploaded file /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/files/requirements.txt
+2021-07-05 19:49:35,564 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,564 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,666 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,666 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,751 INFO    Thread-7  :1511 [sender.py:transition_state():308] send defer: 7
+2021-07-05 19:49:35,752 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:35,752 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 7
+2021-07-05 19:49:35,752 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:35,753 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-07-05 19:49:35,768 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,889 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 8
+2021-07-05 19:49:35,890 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,890 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:35,891 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 8
+2021-07-05 19:49:35,891 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:35,891 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-07-05 19:49:35,891 INFO    SenderThread:1511 [sender.py:transition_state():308] send defer: 9
+2021-07-05 19:49:35,892 DEBUG   SenderThread:1511 [sender.py:send():179] send: final
+2021-07-05 19:49:35,892 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: defer
+2021-07-05 19:49:35,892 DEBUG   SenderThread:1511 [sender.py:send():179] send: footer
+2021-07-05 19:49:35,892 INFO    HandlerThread:1511 [handler.py:handle_request_defer():141] handle defer: 9
+2021-07-05 19:49:35,893 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: defer
+2021-07-05 19:49:35,893 INFO    SenderThread:1511 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-07-05 19:49:35,992 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-05 19:49:35,992 DEBUG   SenderThread:1511 [sender.py:send_request():193] send_request: poll_exit
+2021-07-05 19:49:35,993 INFO    SenderThread:1511 [file_pusher.py:join():182] waiting for file pusher
+2021-07-05 19:49:35,994 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: get_summary
+2021-07-05 19:49:35,996 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: sampled_history
+2021-07-05 19:49:35,998 DEBUG   HandlerThread:1511 [handler.py:handle_request():124] handle_request: shutdown
+2021-07-05 19:49:35,999 INFO    HandlerThread:1511 [handler.py:finish():638] shutting down handler
+2021-07-05 19:49:36,892 INFO    WriterThread:1511 [datastore.py:close():288] close: /content/drive/My Drive/PairBuddy Research/Peter's Papers/FSE 2021/Google Colab Files/wandb/run-20210705_194748-2jse8xsy/run-2jse8xsy.wandb
+2021-07-05 19:49:36,993 INFO    SenderThread:1511 [sender.py:finish():945] shutting down sender
+2021-07-05 19:49:36,994 INFO    SenderThread:1511 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-05 19:49:36,994 INFO    SenderThread:1511 [file_pusher.py:join():182] waiting for file pusher
+2021-07-05 19:49:36,996 INFO    MainThread:1511 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,64 @@
+The following columns in the training set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running training *****
+  Num examples = 956
+  Num Epochs = 12
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 1440
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+Saving model checkpoint to .bert-large-uncasedDelivery/checkpoint-500
+Configuration saved in .bert-large-uncasedDelivery/checkpoint-500/config.json
+Model weights saved in .bert-large-uncasedDelivery/checkpoint-500/pytorch_model.bin
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+Saving model checkpoint to .bert-large-uncasedDelivery/checkpoint-1000
+Configuration saved in .bert-large-uncasedDelivery/checkpoint-1000/config.json
+Model weights saved in .bert-large-uncasedDelivery/checkpoint-1000/pytorch_model.bin
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+The following columns in the evaluation set  don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__.
+***** Running Evaluation *****
+  Num examples = 1138
+  Batch size = 8
+Training completed. Do not forget to share your model on huggingface.co/models =)
