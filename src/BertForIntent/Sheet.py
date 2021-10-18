@@ -1,22 +1,20 @@
-import pickle
-
 import pandas as pd
-
-
+from Settings import Settings
+import ssl
 class Sheet:
 
     def __init__(self, type):
-        gc = gspread.authorize(GoogleCredentials.get_application_default())
+        settings = Settings('settings.json')
         if type == 'hh':
-          self.sheet = gc.open_by_key(settings.hh_sheet_id)
-          self.names = settings.hh_sheet_names
+            self.sheet = settings.hh_sheet_id
+            self.names = settings.hh_sheet_names
         elif type == 'ha':
-          self.sheet = gc.open_by_key(settings.ha_sheet_id)
-          self.names = settings.ha_sheet_names
+            self.sheet = settings.ha_sheet_id
+            self.names = settings.ha_sheet_names
         else:
-          print("incorrect type")
+            print("incorrect type")
 
-    def __get_sheet(self, sheet_name: str) -> pd.DataFrame:
+    def __get_sheet(self, sheet_name, key=None):
         """
         Retrieves sheet data from Google Sheets API
         :parameter sheets Google API service for Google Sheets
@@ -25,21 +23,22 @@ class Sheet:
         :returns DataFrame of the rows and label
         """
         print("Querying " + sheet_name)
+        if key is None:
+            key = self.sheet
+        url = 'https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={sheet_name}&headers=1'.format(
+            key=key, sheet_name=sheet_name.replace(' ', '%20'))
 
-        # A query to get all the rows of the 'sheet_num'-th sheet
-        ROWS_RANGE = '!A:K'
-
-        worksheet = self.sheet.worksheet(sheet_name)
-
-        # Apply query
-        sheet_df = pd.DataFrame(worksheet.get_all_records())
+        # log.info('Loading google spreadsheet from {}'.format(url))
+        ssl._create_default_https_context = ssl._create_stdlib_context
+        sheet_df = pd.read_csv(url)
+        sheet_df.fillna('', inplace=True)
 
         print("    Result Found")
 
         # Preprocess TimeStamps
         return sheet_df
 
-    def getAsDF(self) -> pd.DataFrame:
+    def getAsDF(self):
         """
         All sheets are entered into a single DataFrame
         :return: DataFrame all studies combined
