@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-10-18T16:16:16.445910",
+    "startedAt": "2021-10-18T16:16:09.753170",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/main.py",
+    "codePath": "src/BertForIntent/main.py",
+    "git": {
+        "remote": "https://github.com/drdauntless/TC-Bot.git",
+        "commit": "9cc8529a41c34876d22af109cf873a030dc0f46f"
+    },
+    "email": "jacob91897@gmail.com",
+    "root": "/Users/euler/Documents/Programmer-Programmer/TC-Bot",
+    "host": "Jacobs-MacBook-Pro-2.local",
+    "username": "euler",
+    "executable": "/usr/local/bin/python3.8"
+}

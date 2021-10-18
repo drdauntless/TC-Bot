@@ -1,0 +1,126 @@
+2021-10-18 11:14:49,492 INFO    MainThread:11312 [wandb_setup.py:_flush():69] Unhandled environment var: WANDB_WATCH
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting env: {}
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6175fddbcbeb3088964faa63261303bafff5995c'}
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6175fddbcbeb3088964faa63261303bafff5995c'}
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_init.py:_log_setup():357] Logging user logs to /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/logs/debug.log
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_init.py:_log_setup():358] Logging internal logs to /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/logs/debug-internal.log
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_init.py:init():390] calling init triggers
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [wandb_init.py:init():435] starting backend
+2021-10-18 11:14:49,493 INFO    MainThread:11312 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2021-10-18 11:14:49,504 INFO    MainThread:11312 [backend.py:ensure_launched():135] starting backend process...
+2021-10-18 11:14:49,513 INFO    MainThread:11312 [backend.py:ensure_launched():139] started backend process with pid: 11321
+2021-10-18 11:14:49,516 INFO    MainThread:11312 [wandb_init.py:init():440] backend started and connected
+2021-10-18 11:14:49,519 INFO    MainThread:11312 [wandb_init.py:init():499] updated telemetry
+2021-10-18 11:14:49,521 INFO    MainThread:11312 [wandb_init.py:init():522] communicating current version
+2021-10-18 11:14:50,289 INFO    MainThread:11312 [wandb_init.py:init():527] got version response 
+2021-10-18 11:14:50,289 INFO    MainThread:11312 [wandb_init.py:init():535] communicating run to backend with 30 second timeout
+2021-10-18 11:14:50,466 INFO    MainThread:11312 [wandb_init.py:init():562] starting run threads in backend
+2021-10-18 11:14:50,513 INFO    MainThread:11312 [wandb_run.py:_console_start():1651] atexit reg
+2021-10-18 11:14:50,513 INFO    MainThread:11312 [wandb_run.py:_redirect():1525] redirect: SettingsConsole.REDIRECT
+2021-10-18 11:14:50,514 INFO    MainThread:11312 [wandb_run.py:_redirect():1530] Redirecting console.
+2021-10-18 11:14:50,515 INFO    MainThread:11312 [wandb_run.py:_redirect():1586] Redirects installed.
+2021-10-18 11:14:50,515 INFO    MainThread:11312 [wandb_init.py:init():587] run started, returning control to user process
+2021-10-18 11:15:52,179 INFO    MainThread:11312 [wandb_watch.py:watch():43] Watching
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_setup.py:_flush():69] Unhandled environment var: WANDB_WATCH
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting env: {}
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6175fddbcbeb3088964faa63261303bafff5995c'}
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6175fddbcbeb3088964faa63261303bafff5995c'}
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_init.py:_log_setup():357] Logging user logs to /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111609-37nmp3xz/logs/debug.log
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_init.py:_log_setup():358] Logging internal logs to /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111609-37nmp3xz/logs/debug-internal.log
+2021-10-18 11:16:09,756 INFO    MainThread:11312 [wandb_init.py:init():390] calling init triggers
+2021-10-18 11:16:09,757 INFO    MainThread:11312 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-10-18 11:16:09,757 INFO    MainThread:11312 [wandb_init.py:init():410] re-initializing run, found existing run on stack: 2hkjcuj0
+2021-10-18 11:16:09,757 INFO    MainThread:11312 [wandb_run.py:finish():1311] finishing run drdauntless/TC-Bot-src_BertForIntent/2hkjcuj0
+2021-10-18 11:16:09,757 INFO    MainThread:11312 [wandb_run.py:_atexit_cleanup():1621] got exitcode: 0
+2021-10-18 11:16:09,757 INFO    MainThread:11312 [wandb_run.py:_restore():1593] restore
+2021-10-18 11:16:12,474 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 766
+  total_bytes: 766
+}
+
+2021-10-18 11:16:12,633 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 766
+  total_bytes: 766
+}
+
+2021-10-18 11:16:12,737 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 766
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:12,838 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 766
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:12,945 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:13,047 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:13,152 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:13,259 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:13,438 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+
+2021-10-18 11:16:13,707 INFO    MainThread:11312 [wandb_run.py:_wait_for_finish():1746] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10621
+  total_bytes: 10621
+}
+local_info {
+}
+
+2021-10-18 11:16:14,831 INFO    MainThread:11312 [wandb_run.py:_append_files():2009] logging synced files

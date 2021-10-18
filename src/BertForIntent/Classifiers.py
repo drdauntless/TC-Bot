@@ -6,13 +6,14 @@ from transformers import TrainingArguments, Trainer, BertConfig, GPT2Config, \
     BertForSequenceClassification, BertTokenizer, GPT2ForSequenceClassification, GPT2Tokenizer, \
     AlbertTokenizer, AlbertForSequenceClassification, DistilBertTokenizer, DistilBertForSequenceClassification, \
     XLNetTokenizer, XLNetForSequenceClassification
-
+import wandb
 import re
 from datasets import Dataset, load_dataset, concatenate_datasets
 import gc
+from Settings import Settings
 
 global_encode_dict = None
-
+settings = Settings('settings.json')
 
 def compute_metrics(pred):
     rtn_dict = dict()

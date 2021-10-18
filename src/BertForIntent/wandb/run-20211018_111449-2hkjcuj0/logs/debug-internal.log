@@ -1,0 +1,185 @@
+2021-10-18 11:14:50,213 INFO    MainThread:11321 [internal.py:wandb_internal():86] W&B internal server running at pid: 11321, started at: 2021-10-18 11:14:50.212816
+2021-10-18 11:14:50,214 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: check_version
+2021-10-18 11:14:50,214 INFO    WriterThread:11321 [datastore.py:open_for_write():77] open: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/run-2hkjcuj0.wandb
+2021-10-18 11:14:50,216 DEBUG   SenderThread:11321 [sender.py:send():185] send: header
+2021-10-18 11:14:50,216 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: check_version
+2021-10-18 11:14:50,290 DEBUG   SenderThread:11321 [sender.py:send():185] send: run
+2021-10-18 11:14:50,465 INFO    SenderThread:11321 [dir_watcher.py:__init__():169] watching files in: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files
+2021-10-18 11:14:50,465 INFO    SenderThread:11321 [sender.py:_start_run_threads():746] run started: 2hkjcuj0 with start time 1634573689
+2021-10-18 11:14:50,465 DEBUG   SenderThread:11321 [sender.py:send():185] send: summary
+2021-10-18 11:14:50,466 INFO    SenderThread:11321 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-18 11:14:50,466 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: run_start
+2021-10-18 11:14:50,471 DEBUG   HandlerThread:11321 [meta.py:__init__():40] meta init
+2021-10-18 11:14:50,471 DEBUG   HandlerThread:11321 [meta.py:__init__():54] meta init done
+2021-10-18 11:14:50,471 DEBUG   HandlerThread:11321 [meta.py:probe():211] probe
+2021-10-18 11:14:50,472 DEBUG   HandlerThread:11321 [meta.py:_setup_git():201] setup git
+2021-10-18 11:14:50,502 DEBUG   HandlerThread:11321 [meta.py:_setup_git():208] setup git done
+2021-10-18 11:14:50,502 DEBUG   HandlerThread:11321 [meta.py:_save_pip():58] save pip
+2021-10-18 11:14:50,503 DEBUG   HandlerThread:11321 [meta.py:_save_pip():72] save pip done
+2021-10-18 11:14:50,504 DEBUG   HandlerThread:11321 [meta.py:probe():249] probe done
+2021-10-18 11:14:50,509 DEBUG   SenderThread:11321 [sender.py:send():185] send: files
+2021-10-18 11:14:50,509 INFO    SenderThread:11321 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-18 11:14:50,514 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:14:50,514 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:14:50,855 INFO    Thread-11 :11321 [upload_job.py:push():137] Uploaded file /var/folders/v0/my2kmnn16ns9pvcj9n6yy0800000gn/T/tmpbbr4w_czwandb/1kbwot5i-wandb-metadata.json
+2021-10-18 11:14:51,471 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:14:51,471 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/requirements.txt
+2021-10-18 11:14:51,471 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-metadata.json
+2021-10-18 11:14:51,472 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-summary.json
+2021-10-18 11:14:53,473 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:14:55,475 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:14:57,480 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:14:59,489 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:01,500 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:03,508 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:05,514 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:05,605 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:15:05,606 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:15:07,521 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:09,525 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:11,528 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:13,534 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:15,540 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:17,545 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:19,238 DEBUG   SenderThread:11321 [sender.py:send():185] send: stats
+2021-10-18 11:15:19,552 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:20,705 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:15:20,705 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:15:21,560 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:23,567 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:25,576 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:27,582 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:29,589 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:31,596 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:33,601 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:35,611 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:35,802 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:15:35,802 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:15:37,615 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:39,620 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:41,625 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:43,633 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:45,641 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:47,647 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:49,650 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:50,052 DEBUG   SenderThread:11321 [sender.py:send():185] send: stats
+2021-10-18 11:15:50,935 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:15:50,935 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:15:51,655 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:53,661 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:55,668 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:57,672 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:15:59,675 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:01,683 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:03,689 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:05,697 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:06,064 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 11:16:06,064 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 11:16:07,701 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:09,708 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:11,715 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:12,471 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:12,472 DEBUG   SenderThread:11321 [sender.py:send():185] send: telemetry
+2021-10-18 11:16:12,472 DEBUG   SenderThread:11321 [sender.py:send():185] send: exit
+2021-10-18 11:16:12,472 INFO    SenderThread:11321 [sender.py:send_exit():294] handling exit code: 0
+2021-10-18 11:16:12,472 INFO    SenderThread:11321 [sender.py:send_exit():296] handling runtime: 82
+2021-10-18 11:16:12,473 INFO    SenderThread:11321 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-18 11:16:12,473 INFO    SenderThread:11321 [sender.py:send_exit():306] send defer
+2021-10-18 11:16:12,473 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:12,474 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,474 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-18 11:16:12,474 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,474 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-18 11:16:12,474 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 1
+2021-10-18 11:16:12,474 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,475 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-18 11:16:12,515 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,515 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-18 11:16:12,515 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 2
+2021-10-18 11:16:12,515 DEBUG   SenderThread:11321 [sender.py:send():185] send: stats
+2021-10-18 11:16:12,516 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,516 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-18 11:16:12,516 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,516 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-18 11:16:12,516 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 3
+2021-10-18 11:16:12,517 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,517 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-18 11:16:12,517 DEBUG   SenderThread:11321 [sender.py:send():185] send: summary
+2021-10-18 11:16:12,517 INFO    SenderThread:11321 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-18 11:16:12,518 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,518 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-18 11:16:12,518 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 4
+2021-10-18 11:16:12,518 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,518 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-18 11:16:12,518 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,518 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-18 11:16:12,579 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:12,632 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 5
+2021-10-18 11:16:12,632 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:12,632 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,633 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-18 11:16:12,633 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,633 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-18 11:16:12,633 INFO    SenderThread:11321 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-18 11:16:12,719 INFO    Thread-8  :11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:12,719 INFO    SenderThread:11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/config.yaml
+2021-10-18 11:16:12,719 INFO    SenderThread:11321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-summary.json
+2021-10-18 11:16:12,720 INFO    SenderThread:11321 [dir_watcher.py:finish():313] scan: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files
+2021-10-18 11:16:12,720 INFO    SenderThread:11321 [dir_watcher.py:finish():327] scan save: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/requirements.txt requirements.txt
+2021-10-18 11:16:12,720 INFO    SenderThread:11321 [dir_watcher.py:finish():327] scan save: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log output.log
+2021-10-18 11:16:12,720 INFO    SenderThread:11321 [dir_watcher.py:finish():327] scan save: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/config.yaml config.yaml
+2021-10-18 11:16:12,720 INFO    SenderThread:11321 [dir_watcher.py:finish():327] scan save: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-summary.json wandb-summary.json
+2021-10-18 11:16:12,723 INFO    SenderThread:11321 [dir_watcher.py:finish():327] scan save: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-metadata.json wandb-metadata.json
+2021-10-18 11:16:12,723 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 6
+2021-10-18 11:16:12,725 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:12,728 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-18 11:16:12,729 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:12,730 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-18 11:16:12,730 INFO    SenderThread:11321 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-18 11:16:12,736 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:12,736 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:12,837 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:12,838 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:12,944 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:12,945 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,046 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:13,047 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,058 INFO    Thread-12 :11321 [upload_job.py:push():137] Uploaded file /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/requirements.txt
+2021-10-18 11:16:13,060 INFO    Thread-13 :11321 [upload_job.py:push():137] Uploaded file /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/output.log
+2021-10-18 11:16:13,062 INFO    Thread-15 :11321 [upload_job.py:push():137] Uploaded file /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/wandb-summary.json
+2021-10-18 11:16:13,082 INFO    Thread-14 :11321 [upload_job.py:push():137] Uploaded file /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/files/config.yaml
+2021-10-18 11:16:13,151 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:13,152 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,258 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:13,259 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,283 INFO    Thread-7  :11321 [sender.py:transition_state():319] send defer: 7
+2021-10-18 11:16:13,284 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:13,284 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-18 11:16:13,285 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:13,285 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-18 11:16:13,365 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:13,437 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 8
+2021-10-18 11:16:13,437 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,437 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:13,438 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-18 11:16:13,438 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:13,438 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-18 11:16:13,438 INFO    SenderThread:11321 [sender.py:transition_state():319] send defer: 9
+2021-10-18 11:16:13,439 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 11:16:13,439 INFO    HandlerThread:11321 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-18 11:16:13,439 DEBUG   SenderThread:11321 [sender.py:send():185] send: final
+2021-10-18 11:16:13,439 DEBUG   SenderThread:11321 [sender.py:send():185] send: footer
+2021-10-18 11:16:13,439 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: defer
+2021-10-18 11:16:13,439 INFO    SenderThread:11321 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-18 11:16:13,541 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 11:16:13,541 DEBUG   SenderThread:11321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 11:16:13,541 INFO    SenderThread:11321 [file_pusher.py:join():182] waiting for file pusher
+2021-10-18 11:16:13,708 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-18 11:16:13,708 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-18 11:16:13,709 DEBUG   HandlerThread:11321 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-18 11:16:13,709 INFO    HandlerThread:11321 [handler.py:finish():683] shutting down handler
+2021-10-18 11:16:14,440 INFO    WriterThread:11321 [datastore.py:close():281] close: /Users/euler/Documents/Programmer-Programmer/TC-Bot/src/BertForIntent/wandb/run-20211018_111449-2hkjcuj0/run-2hkjcuj0.wandb
+2021-10-18 11:16:14,708 INFO    SenderThread:11321 [sender.py:finish():986] shutting down sender
+2021-10-18 11:16:14,709 INFO    SenderThread:11321 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-18 11:16:14,709 INFO    SenderThread:11321 [file_pusher.py:join():182] waiting for file pusher
+2021-10-18 11:16:14,714 INFO    MainThread:11321 [internal.py:handle_exit():76] Internal process exited
